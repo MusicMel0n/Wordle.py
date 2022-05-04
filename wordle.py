@@ -66,6 +66,3 @@ def main(secret_word: str):
   
 if __name__ == "__main__":
     main(choose_word(wordlist))
-
-#fix issue where if there are two of the same element it doesnt change both to green
-#try making it so when a word is green you cannot overwrite it
