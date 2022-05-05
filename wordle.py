@@ -34,7 +34,6 @@ def main(secret_word: str):
     print("Welcome To Wordle")
     print("You have 5 guesses")
     secret_word1 = split(secret_word)
-    print(secret_word1)
 
     for guesses in reversed(range(5)):
         guess = input("Guess a word: \n")
